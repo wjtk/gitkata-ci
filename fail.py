@@ -1,2 +1,2 @@
-pring 'gonna fail'
+print 'gonna fail'
 exit(1)
