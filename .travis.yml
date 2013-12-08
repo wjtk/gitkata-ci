@@ -1,5 +1,4 @@
 language: python
-install: true
+install: pip install nose
 script: 
-	- python hello.py
-	- python fail.py
+	- nosetests -v
