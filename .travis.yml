@@ -1,4 +1,5 @@
 language: python
-install: pip install nose
-script: 
-	- nosetests -v
+install:
+  - pip install nose
+script:
+  - nosetests -v
